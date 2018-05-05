@@ -1,0 +1,186 @@
+.header{
+    background-image: url(../Images/Banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navibar{
+    background-color: transparent !important;
+    padding-top: 30px;
+}
+.navibar a{
+    color: white !important;
+    font-family: Brandon-med, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    padding:0 20px !important;
+    transition: 0.3s !important;
+}
+.navibar a:hover{
+    transform: scale(1.1);
+}
+.banner p{
+    color: white;
+    font-family: Brandon-light;
+}
+.banner h1{
+    color: white;
+    font-family: Brandon-bold;
+}
+.custom_button{
+    font-family: Brandon-bold;
+    overflow: hidden;
+    border:3px solid white !important;
+    margin-top: 0 !important;
+    margin-bottom: 90px !important;
+    padding: 10px 60px !important;
+    background-color: transparent !important; 
+}
+.padding-top{
+    padding-top: 100px;
+}
+.padding-bottom{
+    padding-bottom: 70px;
+}
+.img{
+    float: left;
+    width: 20%;
+}
+.img img{
+    float: center;
+}
+.text {
+    float: left;
+    width: 80%;
+    padding-left: 10px;
+}
+.feature{
+    padding: 30px 10px;
+}
+.text h1{
+    font-family: Brandon-med;
+    font-size: 28px;
+}
+.text p{
+    font-family: Brandon-reg;
+}
+#feedback{
+    font-family: Brandon-reg;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sbubble {
+	position: relative;
+	background: #ffffff;
+	border-radius: .4em;
+}
+
+.sbubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	min-height: 0px;
+	border: 21px solid transparent;
+	border-right-color: #ffffff;
+	border-left: 0;
+	margin-top: -21px;
+	margin-left: -21px;
+}
+#quote{
+    font-family: Brandon-reg;
+    font-size: 20px;
+}
+#author{
+    font-family: Brandon-reg;
+    font-size: 18px;
+    color: #7690c5;
+}
+.sbubble-right {
+	position: relative;
+	background: #ffffff;
+	border-radius: .4em;
+}
+
+.sbubble-right:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 21px solid transparent;
+	border-left-color: #ffffff;
+	border-right: 0;
+	margin-top: -21px;
+	margin-right: -21px;
+}
+#name{
+    font-family: Brandon-bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+#occupation{
+    font-family: Brandon-reg;
+}
+#social li a:hover{
+    color: #7690c5;
+}
+
+#conact{
+    list-style:none;
+    padding-left: 0;
+}
+#contacts li{
+    float: left;
+    width: 50%;
+}
+#contacts li p{
+    font-family: Brandon-reg;
+    color: white;
+}
+.form-group{
+    margin:0px 0 !important;
+}
+form{
+    padding-bottom: 100px;
+    font-family: Brandon-med;
+    color: #bbbbbb !important;
+}
+#ftr{
+    font-family: Brandon-med;
+    font-size: 15px;
+    color: white;
+}
+#light{
+    font-family: Brandon-light;
+    font-size: 50px;
+}
+#bold{
+    font-family: Brandon-bold;
+}
+#reg{
+    font-family: Brandon-reg;
+    font-size: 17px;
+}
+@font-face{
+    font-family:Cubano;
+    src: url("../fonts/Cubano-Regular.otf") format("opentype");
+}
+@font-face{
+    font-family:Brandon-med;
+    src:url("../fonts/Brandon_med.otf") format("opentype");
+}
+@font-face{
+    font-family:Brandon-light;
+    src:url("../fonts/Brandon_light.otf") format("opentype");
+}
+@font-face{
+    font-family:Brandon-bold;
+    src:url("../fonts/Brandon_bld.otf") format("opentype");
+}
+@font-face{
+    font-family:Brandon-reg;
+    src:url("../fonts/Brandon_reg.otf") format("opentype");
+}
